@@ -34,3 +34,15 @@ button {
   text-transform: uppercase;
   padding: 1em 2em 1em 2em;
 }
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: SteelBlue;
+}
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: SkyBlue;
+}
+}
