@@ -43,3 +43,20 @@ button {
 .visited-gray:visited {
   color: Black;
 }
+
+.container {
+  background-image:url(https://lh3.googleusercontent.com/proxy/G-QDiLGZKImpXp9afc1Iw6SBoSoqlUet_7L1iuJh18la5Z6CNpb-PJZf130rCwBAr33cs4Whc7yhhOwzrH3bZ68teqXG2T3XIiCDKDBn4-oUG0Btxnmnqdbd6En7gTNHSh0);
+  background-size: cover;
+  height:700px;
+  margin: 0 auto;
+  width:50%;
+
+}
+
+h4 {
+  color: #fff;
+  font-size:52px;
+  position:relative;
+  text-align:center;
+
+}
