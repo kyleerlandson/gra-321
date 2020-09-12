@@ -21,6 +21,8 @@ h3{
   padding: 10px;
   background-color: #7f7f7f;
 }
+h4{font-family: 'Futura';
+}
 
 .color-1 {background: #5a9b9f;}
 .color-2 {background: #b82837;}
@@ -32,4 +34,12 @@ button {
   font-family:Arial, sans-serif;
   text-transform: uppercase;
   padding: 1em 2em 1em 2em;
+}
+.padding-hover:hover {
+  background-color: Aqua;
+  color:white;
+  padding: 1em 1em 1em 1em;
+}
+.visited-gray:visited {
+  color: Black;
 }
