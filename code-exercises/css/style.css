@@ -1,7 +1,27 @@
-* {
+body {background-color:#5a9b9f ;}
 
+h1{
+  color: White;
+  font-family: 'Futura';
+  padding: 10px;
+  background-color:#b82837;
+  margin: 10px;
+  display:inline-block;
 }
 
-h1 {
-
+h2{font-family: 'Helvetica';
+  padding: 5px;
+  background-color: #b82837;
+  width: 250;
 }
+
+h3{
+  color: Black;
+  font-family: 'Helvetica';
+  padding: 10px;
+  background-color: #7f7f7f;
+}
+
+
+.color-1 {background: #5a9b9f;}
+.color-2 {background: #b82837;}
