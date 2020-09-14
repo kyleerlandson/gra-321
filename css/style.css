@@ -25,24 +25,3 @@ h3{
 
 .color-1 {background: #5a9b9f;}
 .color-2 {background: #b82837;}
-
-button {
-  background-color:#f27186;
-  border: none;
-  color:white;
-  font-family:Arial, sans-serif;
-  text-transform: uppercase;
-  padding: 1em 2em 1em 2em;
-}
-
-@media screen and (max-width: 1000px) {
-  body {
-    background-color: SteelBlue;
-}
-}
-
-@media screen and (max-width: 500px) {
-  body {
-    background-color: SkyBlue;
-}
-}
