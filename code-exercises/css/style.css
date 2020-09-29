@@ -21,7 +21,23 @@ h3{
   padding: 10px;
   background-color: #7f7f7f;
 }
-h4{font-family: 'Futura';
+
+h4 {
+  font-family: 'Futura';
+  color: #fff;
+  font-size:52px;
+  text-align:center;
+}
+
+p {
+  font-family: Helvetica;
+  font-size:52px;
+  font-weight:500;
+  text-align:center;
+  width: 100%;
+  margin: 0 auto;
+  top: 65px;
+  position:relative;
 }
 
 .color-1 {background: #5a9b9f;}
@@ -45,29 +61,21 @@ button {
 }
 
 .container {
-  background-image:url(https://github.com/kyleerlandson/gra-321/blob/master/code-exercises/img/Nils.jpg?raw=true);
+  background-image: url(https://github.com/kyleerlandson/gra-321/blob/master/code-exercises/img/Nils.jpg?raw=true);
   background-size: cover;
   height:700px;
   margin: 0 auto;
-  width:50%;
-
+  width:75%;
 }
 
-.containers {
-  background-image:url(https://github.com/kyleerlandson/gra-321/blob/master/code-exercises/img/Artboard%20%E2%80%93%201.jpg?raw=true);
-  background-size: cover;
-  height:1500px;
-  margin: 5 auto;
-  width:70%;
-
+.exercise-4 {
+  margin: 5% auto;
+  width: 100%;
+  text-align: center;
+  display: block;
 }
-h4 {
-  color: #fff;
-  font-size:52px;
-  position:relative;
-  text-align:center;
 
-}
+
 @media screen and (max-width: 1000px) {
   body {
     background-color: SteelBlue;
@@ -80,13 +88,11 @@ h4 {
 }
 }
 
-p {
-  font-family: Helvetica;
-  font-size:52px;
-  font-weight:500;
-  text-align:center;
-  width: 100%;
-  margin: 0 auto;
-  top: 65px;
-  position:relative;
+
+.background{
+  background-color: Grey;
+  margin:50px;
+  border:50px;
+  width:94%;
+  height: 1600px;
 }

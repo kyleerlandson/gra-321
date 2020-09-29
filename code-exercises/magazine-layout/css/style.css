@@ -1,4 +1,3 @@
-body {background-color:#5a9b9f ;}
 
 h1{
   color: White;
@@ -20,13 +19,28 @@ h3{
   font-family: 'Helvetica';
   padding: 10px;
   background-color: #7f7f7f;
+  margin:10px;
   display:block;
-  width: 50%;
 }
 
-ul{
-  font-family: 'Helvetica';
+h4 {
+  font-family: 'Futura';
+  color: #fff;
+  font-size:52px;
+  position:relative;
+  text-align:center;
+}
+h5{
+    font-family:'Helvetica'
 }
 
-.color-1 {background: #5a9b9f;}
-.color-2 {background: #b82837;}
+p {
+  font-family: Helvetica;
+  font-size:52px;
+  font-weight:500;
+  text-align:center;
+  width: 100%;
+  margin: 0 auto;
+  top: 65px;
+  position:relative;
+}
