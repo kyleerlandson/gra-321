@@ -1,46 +1,60 @@
+body {
+  background-color:#5a9b9f;
+}
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: SteelBlue;
+}
+}
 
-h1{
-  color: White;
+@media screen and (max-width: 500px) {
+  body {
+    background-color: SkyBlue;
+}
+}
+
+h2{
   font-family: 'Futura';
-  padding: 10px;
-  background-color:#b82837;
-  margin: 10px;
-  display:inline-block;
 }
 
-h2{font-family: 'Helvetica';
-  padding: 5px;
-  background-color: #b82837;
-  width: 250;
+p{
+  font-family: 'Helvetica Neue';
 }
 
-h3{
-  color: Black;
-  font-family: 'Helvetica';
-  padding: 10px;
-  background-color: #7f7f7f;
+body{
+  width:100%;
+}
+
+.row-1, .row-2, .row-3{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
   margin:10px;
-  display:block;
 }
 
-h4 {
-  font-family: 'Futura';
-  color: #fff;
-  font-size:52px;
-  position:relative;
-  text-align:center;
-}
-h5{
-    font-family:'Helvetica'
+.photo-1, .text-1{
+  width:40%;
+  margin:10px;
 }
 
-p {
-  font-family: Helvetica;
-  font-size:52px;
-  font-weight:500;
-  text-align:center;
-  width: 100%;
-  margin: 0 auto;
-  top: 65px;
-  position:relative;
+.photo-2,{
+  width:40%;
+  margin:10px;
+}
+
+.text-1{
+  width:500px;
+  height:10px;
+  margin:10px;
+}
+
+.text-2{
+  width:500px;
+  height:10px;
+  margin:10px;
+}
+
+.row-3{
+  justify-content:space-between;
+  margin:10px;
 }
