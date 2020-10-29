@@ -1,7 +1,8 @@
-* {
-
+html {
+font-size: 16px;
 }
 
-h1 {
-
+h1{
+  font-family: Helvetica;
+  font-size: 150px;
 }
