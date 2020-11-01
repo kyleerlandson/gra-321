@@ -1,8 +1,173 @@
-html {
-font-size: 16px;
+body {background-color:#000000 ;}
+
+header {
+background-color: #C0C0C3;
+width: 100%;
 }
 
-h1{
-  font-family: times;
-  font-size: 150px;
+.header-nav {
+  background-color: #C0C0C3;
+  width:90%;
+  margin: 0 auto;
 }
+
+.nav-bar {
+  display:flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  justify-content: space-between;
+  padding: 30px 0 30px 0;
+}
+
+#logo {
+height:100px;
+}
+
+#toggle {
+display:none;
+}
+
+label {
+font-size: 40px;
+line-height:100px;
+ cursor: pointer;
+}
+
+ul.menu-items {
+padding: 20px 0 40px 0;
+margin: 0;
+list-style-type: none;
+text-align: left;
+
+}
+
+ul.menu-items a {
+  text-decoration:none;
+  line-height:40px;
+  text-align: center;
+  color: black;
+  display:block;
+  font-family:Volte medium;
+  font-size: 35pt;
+  padding: 20px;
+  color:white;
+}
+
+#toggle:checked ~ ul.menu-items {
+  display:none;
+}
+
+/*Desktop Styles*/
+@media only screen and (min-width: 500px) {
+  .header-nav {
+  background-color: #C0C0C3;
+  width:90%;
+  margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar {
+  display:inline-block;
+  position: relative;
+  padding: 30px 0 30px 0;
+  width:60%;
+}
+
+#logo {
+height:100px;
+}
+
+#toggle {
+display:none;
+}
+
+label {
+display:none;
+}
+
+ul.menu-items, #toggle:checked ~ ul.menu-items {
+display: flex;
+margin: 0;
+list-style-type: none;
+text-align: right;
+border-top:none;
+  width: 60%;
+  justify-content: space-between;
+}
+
+  h1{
+    font-family:Volte light;
+    color: white;
+    font-size:35pt;
+    text-align:center;
+  }
+
+  h2{
+    font-family:Volte medium;
+    color: white;
+    font-size:16pt;
+    text-align:left;
+  }
+
+  h3{
+    font-family:Volte semibold;
+    color: white;
+    font-size:16pt;
+    text-align:left;
+  }
+
+  h5{
+     font-family:Volte light;
+    color: white;
+    font-size:13pt;
+    text-align:left;
+  }
+
+  #coffee{
+    height:500px;
+    display: block;
+    margin: auto;
+    width:auto;
+  }
+
+  ul.drink-menu{
+  list-style-type:none;
+  text-decoration:none;
+  line-height:35px;
+  text-align: left;
+  color: black;
+  display:block;
+  font-family:Volte;
+  font-size: 16pt;
+  padding: 10px;
+  color:white;
+  }
+
+  #food{
+    height:500px;
+    display: block;
+    margin: auto;
+    width:auto;
+  }
+
+  #story{
+    height:500px;
+    display: block;
+    margin: auto;
+    width:auto;
+  }
+
+  ul.our-story{
+    text-align:center;
+  }
+
+  #story-two{
+    height:500px;
+    display: block;
+    margin: auto;
+    width:auto;
+  }
