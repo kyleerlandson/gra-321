@@ -59,16 +59,6 @@ ul.menu-items a {
   display:none;
 }
 
-/*Desktop Styles*/
-@media only screen and (min-width: 500px) {
-  .header-nav {
-  background-color: #C0C0C3;
-  width:90%;
-  margin: 0 auto;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 .nav-bar {
   display:inline-block;
@@ -95,7 +85,7 @@ margin: 0;
 list-style-type: none;
 text-align: right;
 border-top:none;
-  width: 60%;
+  width: 100%;
   justify-content: space-between;
 }
 
@@ -128,10 +118,10 @@ border-top:none;
   }
 
   #coffee{
-    height:500px;
+    height:auto;
     display: block;
     margin: auto;
-    width:auto;
+    width:500px;
   }
 
   ul.drink-menu{
@@ -148,17 +138,17 @@ border-top:none;
   }
 
   #food{
-    height:500px;
+    height:auto;
     display: block;
     margin: auto;
-    width:auto;
+    width:500px;
   }
 
   #story{
-    height:500px;
+    height:auto;
     display: block;
     margin: auto;
-    width:auto;
+    width:500px;
   }
 
   ul.our-story{
@@ -166,8 +156,8 @@ border-top:none;
   }
 
   #story-two{
-    height:500px;
+    height:auto;
     display: block;
     margin: auto;
-    width:auto;
+    width:500px;
   }
