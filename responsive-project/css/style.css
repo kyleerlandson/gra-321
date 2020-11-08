@@ -1,14 +1,23 @@
-body {background-color:#000000 ;}
+html {
+font-size: 16px;
+box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+   margin:0;
+  padding:0;
+}
 
 header {
-background-color: #C0C0C3;
+background-color: #000000;
 width: 100%;
 }
 
+
 .header-nav {
   background-color: #C0C0C3;
-  width:90%;
-  margin: 0 auto;
+  width:100%;
 }
 
 .nav-bar {
@@ -30,13 +39,14 @@ display:none;
 }
 
 label {
-font-size: 40px;
+font-size: 50px;
 line-height:100px;
- cursor: pointer;
+cursor: pointer;
+background-color: #C0C0C3;
 }
 
 ul.menu-items {
-padding: 20px 0 40px 0;
+padding: 20px 0 0 0;
 margin: 0;
 list-style-type: none;
 text-align: left;
@@ -47,117 +57,147 @@ ul.menu-items a {
   text-decoration:none;
   line-height:40px;
   text-align: center;
-  color: black;
+  color: white;
   display:block;
-  font-family:Volte medium;
-  font-size: 35pt;
-  padding: 20px;
-  color:white;
+  background-color:black;
+}
+
+ul.menu-items a:first-of-type {
+  padding-top:10px;
+}
+
+ul.menu-items a:last-of-type {
+  padding-bottom:10px;
 }
 
 #toggle:checked ~ ul.menu-items {
   display:none;
 }
 
-
-.nav-bar {
-  display:inline-block;
-  position: relative;
-  padding: 30px 0 30px 0;
-  width:60%;
+#drink-menu, #food-menu, #get-in-touch,#locations-hours {
+  height:auto;
 }
 
-#logo {
-height:100px;
+#coffee{
+  width:500px;
 }
 
-#toggle {
-display:none;
+.drink-menu{
+  list-style-type: none;
 }
 
-label {
-display:none;
+
+li, ul, p {
+  margin: 0;
+  padding: 0;
 }
 
-ul.menu-items, #toggle:checked ~ ul.menu-items {
-display: flex;
-margin: 0;
-list-style-type: none;
-text-align: right;
-border-top:none;
+body {
+  width:100%;
+  background-color: black;
+  margin:0px;
+  padding:10px;
+}
+
+section {
+  background-color:;
   width: 100%;
-  justify-content: space-between;
+  margin: 0 auto;
+  position: relative;
 }
 
-  h1{
-    font-family:Volte light;
-    color: white;
-    font-size:35pt;
-    text-align:center;
-  }
 
-  h2{
-    font-family:Volte medium;
-    color: white;
-    font-size:16pt;
-    text-align:left;
-  }
+section h1, p, ul, li {
+  color:;
+}
 
-  h3{
-    font-family:Volte semibold;
-    color: white;
-    font-size:16pt;
-    text-align:left;
-  }
+.iced-drinks, .hot-drinks, .intro {
+  width:85%;
+  margin: 0 auto;
+  color:
+}
 
-  h5{
-     font-family:Volte light;
-    color: white;
-    font-size:13pt;
-    text-align:left;
-  }
+ .menu-item-row {
+  background-color: ;
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  padding: 0 0 1rem 0;
+}
 
-  #coffee{
-    height:auto;
-    display: block;
-    margin: auto;
-    width:500px;
-  }
-
-  ul.drink-menu{
-  list-style-type:none;
-  text-decoration:none;
-  line-height:35px;
-  text-align: left;
-  color: black;
-  display:block;
-  font-family:Volte;
-  font-size: 16pt;
-  padding: 10px;
+.menu-item-row p {
+  width:40%;
+  text-align:left;
+  background-color:;
   color:white;
-  }
+  font-family: Raleway;
+}
 
-  #food{
-    height:auto;
-    display: block;
-    margin: auto;
-    width:500px;
-  }
+.menu-item-row ul {
+  width:60%;
+  list-style-type: none;
+  float: left;
+  text-align:left;
+}
 
-  #story{
-    height:auto;
-    display: block;
-    margin: auto;
-    width:500px;
-  }
+.menu-item-row ul li {
+  width:30%;
+  display:inline-block;
+}
 
-  ul.our-story{
-    text-align:center;
-  }
 
-  #story-two{
-    height:auto;
-    display: block;
-    margin: auto;
-    width:500px;
-  }
+#food{
+  width:500px;
+}
+
+#shop{
+  width:500px;
+}
+
+iframe {
+width:80%;
+ }
+
+.north{
+  text-align:center;
+}
+
+.description{
+width: 95%;
+text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600&display=swap');
+
+h1{
+font-family: 'Raleway', sans-serif;
+font-weight:600;
+color:white;
+text-align:center;
+font-size:2rem;
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color:white;
+  text-align: center;
+
+
+}
+
+h3{
+  color:white;
+  font-family: Raleway;
+}
+
+h4{
+  color:white;
+  font-family: Raleway;
+}
+
+li{
+  font-family: Raleway;
+  color: white;
+}
