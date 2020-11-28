@@ -82,7 +82,7 @@ ul.menu-items a:last-of-type {
 }
 
 #coffee{
-  width:500px;
+  width:575px;
 }
 
 .drink-menu{
@@ -224,7 +224,6 @@ h2{
   font-weight: 500;
   color:white;
   text-align: center;
-
 }
 
 h3{
@@ -256,7 +255,7 @@ p{
   text-align: center;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
   .header-nav {
   background-color: #C0C0C3;
   width:100%;
